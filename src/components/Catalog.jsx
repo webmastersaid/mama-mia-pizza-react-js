@@ -1,7 +1,7 @@
 import React from "react";
 import Item from './Item';
 import Tab from './Tab';
-import Filter from "./modules/Filter.jsx";
+import Filter from "./modules/Filter";
 import Search from "./modules/Search";
 
 class Catalog extends React.Component {
