@@ -1,0 +1,3 @@
+const REMOVE_FROM_CART = 'REMOVE_FROM_CART';
+
+export default REMOVE_FROM_CART;
