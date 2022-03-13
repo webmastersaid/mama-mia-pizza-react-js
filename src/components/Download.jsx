@@ -1,6 +1,6 @@
 import React from "react";
 import { slides } from '../data.js'
-import ImageView from "./modules/ImageView.js";
+import ImageView from "./modules/ImageView";
 
 class Download extends React.Component {
     constructor(props) {
