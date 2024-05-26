@@ -1,0 +1,66 @@
+[
+    {
+        "id": "0",
+        "img": "",
+        "title": "Pizza Margherita",
+        "description": "Tomatoes, mozzarella, basil.",
+        "weight": "400",
+        "price": "489"
+    },
+    {
+        "id": "1",
+        "img": "",
+        "title": "Pizza marinara",
+        "description": "Tomato sauce, olive oil, oregano, garlic. No cheese.",
+        "weight": "400",
+        "price": "450"
+    },
+    {
+        "id": "2",
+        "img": "",
+        "title": "Pizza capricciosa",
+        "description": "Ham, mushrooms, artichokes, egg.",
+        "weight": "400",
+        "price": "450"
+    },
+    {
+        "id": "3",
+        "img": "",
+        "title": "Pizza quattro formaggi",
+        "description": "Prepared using four kinds of cheese mozzarella, Gorgonzola and two others depending on the region.",
+        "weight": "310",
+        "price": "299"
+    },
+    {
+        "id": "4",
+        "img": "",
+        "title": "Pizza quattro stagioni",
+        "description": "Artichokes, mushroom, ham, tomatoes.",
+        "weight": "380",
+        "price": "489"
+    },
+    {
+        "id": "5",
+        "img": "",
+        "title": "Pizza pugliese",
+        "description": "Tomatoes, onion, mozzarella.",
+        "weight": "400",
+        "price": "450"
+    },
+    {
+        "id": "6",
+        "img": "",
+        "title": "Seafood pizza",
+        "description": "Seafood, such as fish, shellfish or squid.",
+        "weight": "400",
+        "price": "450"
+    },
+    {
+        "id": "7",
+        "img": "",
+        "title": "White pizza",
+        "description": "No tomatoes.",
+        "weight": "400",
+        "price": "450"
+    }
+]

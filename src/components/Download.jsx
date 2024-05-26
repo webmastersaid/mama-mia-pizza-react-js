@@ -49,7 +49,7 @@ class Download extends React.Component {
                 <p className="px-2">Android-приложение «Mama Mia Pizza» для заказа еды.</p>
                 <p className="pt-4">Android 7.0 и выше</p>
                 <div className="pb-5">
-                    <a href="../apk/mama-mia-pizza.apk" className="btn btn-outline-primary fs-5 me-2" download>Скачать</a>
+                    <a href="/assets/download/mama-mia-pizza.apk" className="btn btn-outline-primary fs-5 me-2" download>Скачать</a>
                     <i>~7 МБ .APK</i>
                 </div>
                 {this.state.slides.map( (slide, index) => (

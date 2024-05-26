@@ -1,0 +1,26 @@
+[
+    {
+        "id": "0",
+        "img": "",
+        "title": "Black Tea",
+        "description": "Tea",
+        "weight": "200",
+        "price": "25"
+    },
+    {
+        "id": "1",
+        "img": "",
+        "title": "Coffe Americano",
+        "description": "Coffe",
+        "weight": "200",
+        "price": "40"
+    },
+    {
+        "id": "1",
+        "img": "",
+        "title": "Coffe Espresso",
+        "description": "Coffe",
+        "weight": "200",
+        "price": "50"
+    }
+]

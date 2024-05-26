@@ -15,11 +15,13 @@ class Catalog extends React.Component {
     }
   }
   getPizza = () => {
-    fetch('http://localhost:3080/api/pizza/')
+    fetch('/api/pizza.json')
       .then(response => {
+        console.log(response)
         return response.json();
       })
       .then(data => {
+        console.log(data)
         this.setState({
           foods: data
         })
@@ -27,7 +29,7 @@ class Catalog extends React.Component {
   }
 
   getDrink = () => {
-    fetch('http://localhost:3080/api/drink/')
+    fetch('/api/drink.json')
       .then(response => {
         return response.json();
       })
@@ -79,8 +81,8 @@ class Catalog extends React.Component {
       : this.state.selected === "drink" ? "Объём: "
         : "Вес (объём): ";
     const typeMeasure = this.state.selected === "pizza" ? " г."
-      : this.state.selected === "drink" ? " л."
-        : " г. (л.)";
+      : this.state.selected === "drink" ? " мл."
+        : " г. (мл.)";
     return (
       <div>
         <h1 className="text-center">Меню</h1>
